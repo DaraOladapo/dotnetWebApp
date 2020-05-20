@@ -3,12 +3,12 @@ using Xunit;
 
 namespace dotnetWebApp.Tests
 {
-    public class SomeUnitTest
+    public class SomeTest
     {
         [Fact]
-        public void Food()
+        public void Numbers()
         {
-            Assert.IsTrue(1==1);
+            Assert.True(1==1);
         }
     }
 }
