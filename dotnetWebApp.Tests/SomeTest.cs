@@ -18,7 +18,22 @@ namespace dotnetWebApp.Tests
         [Fact]
         public void NumbersLessThan()
         {
-            Assert.True(1 <= 2);
+            Assert.True(1 >= 2);
+        }
+        [Fact]
+        public void OtherNumbers()
+        {
+            Assert.True(1 == 1);
+        }
+        [Fact]
+        public void OtherNumbersGreaterThan()
+        {
+            Assert.True(2 >= 1);
+        }
+        [Fact]
+        public void OtherNumbersLessThan()
+        {
+            Assert.True(1 == 2);
         }
     }
 }
