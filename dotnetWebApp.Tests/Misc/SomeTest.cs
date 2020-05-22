@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace dotnetWebApp.Tests
+namespace dotnetWebApp.Tests.Misc
 {
     public class SomeTest
     {
